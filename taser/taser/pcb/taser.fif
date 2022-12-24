@@ -1,0 +1,808 @@
+.DATESTAMP "04-02-2022"
+.VERSION "3.7"
+.DESIGNTECH VIAS_ALLOWED 2 3 1 4 .DESIGNTECH_END
+.AREA
+"Board" 59 I M U A ffffffff ffffffff
+ 24b2c68 30990a4 24b2c68 32d6c54 -3fff 
+ 24b2c68 32d6c54 24b2c68 30990a4 -3fff 
+.AS
+ .AC 64 .AE
+.LAYR
+"Top Placement" 1 P
+"Top Elec" 2 E
+"Bottom Elec" 3 E
+"Bottom Placement" 4 P
+.PREC 0 0 5f5e100 5f5e100
+.LS 7710 7710 7710 7710 7710 7710 7710 7710 7710
+.SPAC
+"110V" "(Unclassed)" 2 319c0
+"110V" "(Unclassed)" 3 319c0
+"220V" "(Unclassed)" 2 56d10
+"220V" "(Unclassed)" 3 56d10
+"110V" "220V" 2 25350
+"110V" "220V" 3 25350
+"110V" "110V" 2 1f018
+"110V" "110V" 3 1f018
+"220V" "220V" 2 3e030
+"220V" "220V" 3 3e030
+.PD
+1 1 -15158 -15b44 15158 15b44
+2 0 -1514e -1514e 1514e 1514e
+3 1 -efa6 -efa6 efa6 efa6
+4 1 -df3e -1514e df3e df3e
+5 1 -df3e -df3e df3e 1514e
+6 1 -efa6 -efa6 efa6 efa6
+7 0 -1514e -1514e 1514e 1514e
+8 1 -110da -1b490 110da 1b490
+9 1 -182f4 -594c 10be4 594c
+a 1 -10be4 -594c 182f4 594c
+b 1 -c670 -129a8 c670 129a8
+c 1 -c670 -44368 c670 44368
+d 0 -ac72e -19f6e ac72e 19f6e
+e 1 -16a26 -328a2 16a26 328a2
+f 1 -8dfe -dc1e 8dfe dc1e
+10 1 -8dfe -dc1e 8dfe dc1e
+11 0 -14276 -14276 14276 14276
+12 0 -18ce0 -18ce0 18ce0 18ce0
+13 1 -c670 -129a8 c670 129a8
+14 1 -c670 -44368 c670 44368
+15 1 -8dfe -c896 8dfe c896
+16 1 -8dfe -c896 8dfe c896
+.DE
+.SYMB
+.SST
+f "0603 pegasus"
+.SA
+.SYMALTNAME "sk_new"
+.USA 0
+.ST
+ -17318 0
+ 17318 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ -17318 0
+ 17318 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+5 "1206 pegasus"
+.SA
+.SYMALTNAME " "
+.USA 0
+.ST
+ 0 0
+ 493e0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 493e0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+37 "berg 4"
+.SA
+.SYMALTNAME "sab"
+.USA 0
+.ST
+ 0 0
+ 3e030 0
+ 7c060 0
+ ba090 0
+.TE
+.SS
+ 1 
+ -1f018 -f80c -1f018 1f018 0 
+ -1f018 1f018 d90a8 1f018 0 
+ d90a8 1f018 d90a8 -1f018 0 
+ d90a8 -1f018 -f80c -1f018 0 
+ -f80c -1f018 -1f018 -f80c 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 3e030 0
+ 7c060 0
+ ba090 0
+.TE
+.SS
+ 1 
+ -1f018 -f80c -1f018 1f018 0 
+ -1f018 1f018 d90a8 1f018 0 
+ d90a8 1f018 d90a8 -1f018 0 
+ d90a8 -1f018 -f80c -1f018 0 
+ -f80c -1f018 -1f018 -f80c 0 
+.BE
+.SE
+.OA
+.AE
+.SST
+19 "Diode"
+.SA
+.SYMALTNAME "CD214A-B320"
+.USA 0
+.ST
+ 0 0
+ 60bd0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 60bd0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+28 "Pad"
+.SA
+.SYMALTNAME " "
+.USA 0
+.ST
+ 0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+2d "SMD INDUCTOR"
+.SA
+.SYMALTNAME "DS-1608C-223_new"
+.USA 0
+.ST
+ -42a68 0
+ 42a68 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ -42a68 0
+ 42a68 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+14 "SOT-23 "
+.SA
+.SYMALTNAME " "
+.USA 0
+.ST
+ 0 0
+ 2e824 0
+ 17908 2e824
+.TE
+.SS
+ 1 
+ -f80c -f80c -f80c 44368 0 
+ -f80c 44368 3e030 44368 0 
+ 3e030 44368 3e030 -f80c 0 
+ 3e030 -f80c -f80c -f80c 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 2e824 0
+ 17908 2e824
+.TE
+.SS
+ 1 
+ -f80c -f80c -f80c 44368 0 
+ -f80c 44368 3e030 44368 0 
+ 3e030 44368 3e030 -f80c 0 
+ 3e030 -f80c -f80c -f80c 0 
+.BE
+.SE
+.OA
+.AE
+.SST
+23 "SOT-89 Tran"
+.SA
+.SYMALTNAME ".230 .185 .054 .055"
+.USA 0
+.ST
+ 0 0
+ 4397c 0
+ 217c8 319c0
+.TE
+.SS
+ 1 
+ -18ce0 -15b44 -18ce0 78ec4 0 
+ -18ce0 78ec4 5bc70 78ec4 0 
+ 5bc70 78ec4 5bc70 -15b44 0 
+ 5bc70 -15b44 -18ce0 -15b44 0 
+.BE
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+ 4397c 0
+ 217c8 319c0
+.TE
+.SS
+ 1 
+ -18ce0 -15b44 -18ce0 78ec4 0 
+ -18ce0 78ec4 5bc70 78ec4 0 
+ 5bc70 78ec4 5bc70 -15b44 0 
+ 5bc70 -15b44 -18ce0 -15b44 0 
+.BE
+.SE
+.OA
+.AE
+.SST
+32 "SOT23-5P"
+.SA
+.SYMALTNAME "Spacelabs"
+.USA 0
+.ST
+ -17318 -1f658
+ 0 -1f658
+ 17318 -1f658
+ 17318 20148
+ -17318 20148
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ -17318 -1f658
+ 0 -1f658
+ 17318 -1f658
+ 17318 20148
+ -17318 20148
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+a "test point"
+.SA
+.SYMALTNAME "sk_tp"
+.USA 0
+.ST
+ 0 0
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ 0 0
+.TE
+.SS
+.SE
+.OA
+.AE
+.SST
+1e "TSSOP 20PIN"
+.SA
+.SYMALTNAME "sk"
+.USA 0
+.ST
+ -43238 47694
+ -43238 378ac
+ -43238 27ac4
+ -43238 17cdc
+ -43238 7ef4
+ -43238 -7ef4
+ -43238 -17cdc
+ -43238 -27ac4
+ -43238 -378ac
+ -43238 -47694
+ 43238 -47694
+ 43238 -378ac
+ 43238 -27ac4
+ 43238 -17cdc
+ 43238 -7ef4
+ 43238 7ef4
+ 43238 17cdc
+ 43238 27ac4
+ 43238 378ac
+ 43238 47694
+.TE
+.SS
+.SE
+.OA
+.SWA 0
+.ST
+ -43238 47694
+ -43238 378ac
+ -43238 27ac4
+ -43238 17cdc
+ -43238 7ef4
+ -43238 -7ef4
+ -43238 -17cdc
+ -43238 -27ac4
+ -43238 -378ac
+ -43238 -47694
+ 43238 -47694
+ 43238 -378ac
+ 43238 -27ac4
+ 43238 -17cdc
+ 43238 -7ef4
+ 43238 7ef4
+ 43238 17cdc
+ 43238 27ac4
+ 43238 378ac
+ 43238 47694
+.TE
+.SS
+.SE
+.OA
+.AE
+.ELEM
+3 "1206 pegasus"
+.ET 1 2 .TE
+8 "test point"
+.ET 1 .TE
+d "0603 pegasus"
+.ET 1 2 .TE
+12 "SOT-23 "
+.ET 1 2 3 .TE
+17 "Diode"
+.ET 1 2 .TE
+1c "TSSOP 20PIN"
+.ET 1 2 3 4 5 6 7 8 9 a b c d e f 10 11 12 13 14 .TE
+21 "SOT-89 Tran"
+.ET 1 2 3 .TE
+26 "Pad"
+.ET 1 .TE
+2b "SMD INDUCTOR"
+.ET 1 2 .TE
+30 "SOT23-5P"
+.ET 1 2 3 4 5 .TE
+35 "berg 4"
+.ET 1 2 3 4 .TE
+.PACK
+2 "1206 pegasus" 5 C 2 1
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+" "
+1
+1
+.PAE
+7 "test point" a A 1 0
+.PACKPINNAMES
+ "1"
+.PACKPINNAMES_END
+.PAS
+"sk_tp"
+2
+.PAE
+c "0603 pegasus" f C 2 1
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"sk_new"
+6
+6
+.PAE
+11 "SOT-23 " 14 C 3 1
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+.PACKPINNAMES_END
+.PAS
+" "
+4
+4
+5
+.PAE
+16 "Diode" 19 C 2 1
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"CD214A-B320"
+8
+8
+.PAE
+1b "TSSOP 20PIN" 1e C 14 1
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+ "5"
+ "6"
+ "7"
+ "8"
+ "9"
+ "10"
+ "11"
+ "12"
+ "13"
+ "14"
+ "15"
+ "16"
+ "17"
+ "18"
+ "19"
+ "20"
+.PACKPINNAMES_END
+.PAS
+"sk"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+.PAE
+20 "SOT-89 Tran" 23 C 3 1
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+.PACKPINNAMES_END
+.PAS
+".230 .185 .054 .055"
+13
+13
+14
+.PAE
+25 "Pad" 28 A 1 0
+.PACKPINNAMES
+ "1"
+.PACKPINNAMES_END
+.PAS
+" "
+12
+.PAE
+2a "SMD INDUCTOR" 2d C 2 1
+.PACKPINNAMES
+ "1"
+ "2"
+.PACKPINNAMES_END
+.PAS
+"DS-1608C-223_new"
+e
+e
+.PAE
+2f "SOT23-5P" 32 C 5 1
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+ "5"
+.PACKPINNAMES_END
+.PAS
+"Spacelabs"
+15
+15
+15
+16
+16
+.PAE
+34 "berg 4" 37 A 4 0
+.PACKPINNAMES
+ "1"
+ "2"
+ "3"
+ "4"
+.PACKPINNAMES_END
+.PAS
+"sab"
+11
+11
+11
+11
+.PAE
+.PART
+1 "1206 pegasus" .PACAT O "XXX" "default" 2 3
+.PM
+
+ 1 1 2 2 .PP
+
+6 "test point" .PACAT O "XXX" "default" 7 8
+.PM
+
+ 1 1 .PP
+
+b "0603 pegasus" .PACAT O "XXX" "default" c d
+.PM
+
+ 1 1 2 2 .PP
+
+10 "SOT-23 " .PACAT O "XXX" "default" 11 12
+.PM
+
+ 1 1 2 2 3 3 .PP
+
+15 "Diode" .PACAT O "XXX" "default" 16 17
+.PM
+
+ 1 1 2 2 .PP
+
+1a "TSSOP 20PIN" .PACAT O "XXX" "default" 1b 1c
+.PM
+
+ 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 a a b b c c d d e e f f 10 10 11 11 12 12 13 13 14 14 .PP
+
+1f "SOT-89 Tran" .PACAT O "XXX" "default" 20 21
+.PM
+
+ 1 1 2 2 3 3 .PP
+
+24 "Pad" .PACAT O "XXX" "default" 25 26
+.PM
+
+ 1 1 .PP
+
+29 "SMD INDUCTOR" .PACAT O "XXX" "default" 2a 2b
+.PM
+
+ 1 1 2 2 .PP
+
+2e "SOT23-5P" .PACAT O "XXX" "default" 2f 30
+.PM
+
+ 1 1 2 2 3 3 4 4 5 5 .PP
+
+33 "berg 4" .PACAT O "XXX" "default" 34 35
+.PM
+
+ 1 1 2 2 3 3 4 4 .PP
+
+.PCAT
+"default" 0 167 1 0 "T" 1 9ec 9ec
+.TREE
+5a 0 "SWIM" "1" "" 0 ""
+5b 0 "PULSE" "1" "" 0 ""
+5c 0 "BUTTON" "1" "" 0 ""
+5d 0 "N01000" "1" "" 0 ""
+5e 0 "N01330" "1" "" 0 ""
+5f 0 "N01369" "1" "" 0 ""
+60 0 "N01941" "1" "" 0 ""
+61 0 "N02011" "1" "" 0 ""
+62 0 "BUZZ" "1" "" 0 ""
+63 0 "RST" "1" "" 0 ""
+64 0 "+3V3" "1" "" 0 ""
+65 0 "+5V" "1" "" 0 ""
+66 0 "BAT_SENSE" "1" "" 0 ""
+67 0 "N01128" "1" "" 0 ""
+68 0 "N04708" "1" "" 0 ""
+69 0 "VBAT" "1" "" 0 ""
+6a 0 "GND" "1" "" 0 ""
+.COMP
+38 1 "C3" 2  246c95c 314d180 4000 0 0 0 "default" "" -1 -1
+.CP
+65 1 0 1 "" ""
+6a 1 0 1 "" ""
+.PE
+39 6 "TP10" 1  25021f0 30c0b68 0 0 1 0 "default" "" -1 -1
+.CP
+61 1 0 2 "" ""
+.PE
+3a b "C5" 2  25177bc 313ac88 c000 0 0 0 "default" "" -1 -1
+.CP
+64 1 0 3 "" ""
+6a 1 0 3 "" ""
+.PE
+3b 10 "Q2" 3  256af34 3159a5c 8000 0 1 0 "default" "" -1 -1
+.CP
+5d 1 0 4 "" ""
+6a 1 0 4 "" ""
+60 1 0 5 "" ""
+.PE
+3c 6 "TP9" 1  251a890 30e862c 0 0 1 0 "default" "" -1 -1
+.CP
+61 1 0 2 "" ""
+.PE
+3d 6 "TP7" 1  24bbee4 30b4818 0 0 1 0 "default" "" -1 -1
+.CP
+65 1 0 2 "" ""
+.PE
+3e b "R6" 2  25947f8 3170978 4000 0 1 0 "default" "" -1 -1
+.CP
+5d 1 0 6 "" ""
+62 1 0 6 "" ""
+.PE
+3f 6 "TP4" 1  245a464 3247568 0 0 0 0 "default" "" -1 -1
+.CP
+6a 1 0 7 "" ""
+.PE
+40 6 "TP3" 1  24974f4 3247568 0 0 0 0 "default" "" -1 -1
+.CP
+5c 1 0 7 "" ""
+.PE
+41 b "R1" 2  24d14b0 31f4f0c c000 0 1 0 "default" "" -1 -1
+.CP
+69 1 0 6 "" ""
+66 1 0 6 "" ""
+.PE
+42 b "R4" 2  249134c 30ee7d4 c000 0 1 0 "default" "" -1 -1
+.CP
+5b 1 0 6 "" ""
+67 1 0 6 "" ""
+.PE
+43 15 "D1" 2  2434e44 316ff8c 8000 0 1 0 "default" "" -1 -1
+.CP
+68 1 0 8 "" ""
+65 1 0 8 "" ""
+.PE
+44 10 "Q1" 3  24636e0 30d6134 4000 0 1 0 "default" "" -1 -1
+.CP
+67 1 0 4 "" ""
+6a 1 0 4 "" ""
+5e 1 0 5 "" ""
+.PE
+45 b "R7" 2  2552c40 3187894 8000 0 1 0 "default" "" -1 -1
+.CP
+5d 1 0 6 "" ""
+6a 1 0 6 "" ""
+.PE
+46 6 "TP6" 1  24ce3dc 30e2484 0 0 1 0 "default" "" -1 -1
+.CP
+65 1 0 2 "" ""
+.PE
+47 1a "U3" 14  255858c 31c8074 4000 0 0 0 "default" "" -1 -1
+.CP
+62 1 0 9 "" ""
+0 1 0 9 "" ""
+0 1 0 9 "" ""
+63 1 0 9 "" ""
+0 1 0 9 "" ""
+0 1 0 9 "" ""
+6a 1 0 9 "" ""
+5f 1 0 9 "" ""
+64 1 0 9 "" ""
+5b 1 0 9 "" ""
+0 1 0 a "" ""
+0 1 0 a "" ""
+5c 1 0 a "" ""
+0 1 0 a "" ""
+0 1 0 a "" ""
+0 1 0 a "" ""
+0 1 0 a "" ""
+5a 1 0 a "" ""
+0 1 0 a "" ""
+66 1 0 a "" ""
+.PE
+48 b "R2" 2  24ff11c 31f4f0c 4000 0 1 0 "default" "" -1 -1
+.CP
+66 1 0 6 "" ""
+6a 1 0 6 "" ""
+.PE
+49 b "R3" 2  2552254 31b56cc 0 0 1 0 "default" "" -1 -1
+.CP
+64 1 0 6 "" ""
+63 1 0 6 "" ""
+.PE
+4a 1f "U1" 3  2431ca8 3191754 c000 0 0 0 "default" "" -1 -1
+.CP
+6a 1 0 b "" ""
+65 1 0 b "" ""
+68 1 0 c "" ""
+.PE
+4b 24 "S1" 1  24b2c68 328019c 0 0 1 0 "default" "" -1 -1
+.CP
+0 1 0 d "" ""
+.PE
+4c 6 "TP8" 1  2401c60 30fab24 0 0 1 0 "default" "" -1 -1
+.CP
+5e 1 0 2 "" ""
+.PE
+4d b "C7" 2  2545428 313ac88 c000 0 0 0 "default" "" -1 -1
+.CP
+5f 1 0 3 "" ""
+6a 1 0 3 "" ""
+.PE
+4e 6 "TP2" 1  242c7f8 3247568 0 0 0 0 "default" "" -1 -1
+.CP
+6a 1 0 7 "" ""
+.PE
+4f 6 "TP11" 1  255dac8 30f497c 0 0 1 0 "default" "" -1 -1
+.CP
+60 1 0 2 "" ""
+.PE
+50 1 "C1" 2  23dd270 320d5ac 8000 0 0 0 "default" "" -1 -1
+.CP
+69 1 0 1 "" ""
+6a 1 0 1 "" ""
+.PE
+51 1 "C2" 2  23dd270 31d35f0 8000 0 0 0 "default" "" -1 -1
+.CP
+69 1 0 1 "" ""
+6a 1 0 1 "" ""
+.PE
+52 29 "L1" 2  240aedc 31e2a14 0 0 1 0 "default" "" -1 -1
+.CP
+69 1 0 e "" ""
+68 1 0 e "" ""
+.PE
+53 b "C4" 2  24e9588 31c3b00 4000 0 0 0 "default" "" -1 -1
+.CP
+64 1 0 3 "" ""
+6a 1 0 3 "" ""
+.PE
+54 2e "U2" 5  24bbee4 31563fc 4000 0 0 0 "default" "" -1 -1
+.CP
+65 1 0 f "" ""
+6a 1 0 f "" ""
+65 1 0 f "" ""
+0 1 0 10 "" ""
+64 1 0 10 "" ""
+.PE
+55 6 "TP1" 1  23e0344 3247568 0 0 0 0 "default" "" -1 -1
+.CP
+69 1 0 7 "" ""
+.PE
+56 b "R5" 2  24636e0 30ee7d4 4000 0 0 0 "default" "" -1 -1
+.CP
+67 1 0 3 "" ""
+6a 1 0 3 "" ""
+.PE
+57 b "C6" 2  25951e4 31ce3ac 4000 0 1 0 "default" "" -1 -1
+.CP
+63 1 0 6 "" ""
+6a 1 0 6 "" ""
+.PE
+58 33 "J1" 4  24cd70c 32440d4 0 0 1 0 "default" "" -1 -1
+.CP
+65 1 0 11 "" ""
+6a 1 0 11 "" ""
+5a 1 0 11 "" ""
+63 1 0 11 "" ""
+.PE
+.WG
+ 9ec 9ec 24b2c68 31b7e7c
+.PIFEND
+.STARTPOF

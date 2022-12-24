@@ -1,0 +1,786 @@
+(PCB TASER
+ (description
+  (timeStamp "2022 05 14 09 47 34")
+  (program "CAPTURE.EXE" (Version "17.2-2016"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "")
+  (date "May 14, 2022")
+  (document "C:\\USERS\\POTATO\\DESKTOP\\TASER\\TASER.DSN")
+  (revision "")
+  (organization "")
+  (address1 "")
+  (address2 "")
+  (address3 "")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component 2N2221_1
+   (place Q1
+    (property 
+     (timestamp 00000325)
+     ("Source Package" 2N2221_1)
+     (Value 2N2221)))
+   (place Q2
+    (property 
+     (timestamp 0000036F)
+     ("Source Package" 2N2221_1)
+     (Value 2N2221))))
+  (component RESISTOR
+   (place R1
+    (property 
+     (timestamp 0000018E)
+     ("Source Package" RESISTOR)
+     (Value 1M)))
+   (place R2
+    (property 
+     (timestamp 0000019E)
+     ("Source Package" RESISTOR)
+     (Value 1M)))
+   (place R3
+    (property 
+     (timestamp 00000389)
+     ("Source Package" RESISTOR)
+     (Value 10k)))
+   (place R4
+    (property 
+     (timestamp 00000D82)
+     ("Source Package" RESISTOR)
+     (Value 1k)))
+   (place R5
+    (property 
+     (timestamp 000003A3)
+     ("Source Package" RESISTOR)
+     (Value 1k)))
+   (place R6
+    (property 
+     (timestamp 000003E0)
+     ("Source Package" RESISTOR)
+     (Value 1k)))
+   (place R7
+    (property 
+     (timestamp 000013A1)
+     ("Source Package" RESISTOR)
+     (Value 1k))))
+  (component "CAP NP"
+   (place C1
+    (property 
+     (timestamp 0000118C)
+     ("Source Package" "CAP NP")
+     (Value 0.1uf/1206)))
+   (place C2
+    (property 
+     (timestamp 000010D3)
+     ("Source Package" "CAP NP")
+     (Value 1uf/1206)))
+   (place C3
+    (property 
+     (timestamp 000010B9)
+     ("Source Package" "CAP NP")
+     (Value 1uf/1206)))
+   (place C4
+    (property 
+     (timestamp 00001499)
+     ("Source Package" "CAP NP")
+     (Value 1uf/0603)))
+   (place C5
+    (property 
+     (timestamp 00001578)
+     ("Source Package" "CAP NP")
+     (Value 1uf/0603)))
+   (place C6
+    (property 
+     (timestamp 00000648)
+     ("Source Package" "CAP NP")
+     (Value 0.1uf/0603)))
+   (place C7
+    (property 
+     (timestamp 00000175)
+     ("Source Package" "CAP NP")
+     (Value 1uf/0603))))
+  (component PIC12C508_1
+   (place U3
+    (property 
+     (timestamp 000009DF)
+     ("Source Package" PIC12C508_1)
+     (Value STM8s003))))
+  (component 79XX/SM_1
+   (place U2
+    (property 
+     (timestamp 00000EB7)
+     ("Source Package" 79XX/SM_1)
+     (Value "BL8530-501SM"))))
+  (component 79XX/SM_0
+   (place U1
+    (property 
+     (timestamp 0000087A)
+     ("Source Package" 79XX/SM_0)
+     (Value "BL8530-501SM"))))
+  (component CON4
+   (place J1
+    (property 
+     (timestamp 000001EC)
+     ("Source Package" CON4)
+     (Value CON4))))
+  (component "TEST POINT"
+   (place TP10
+    (property 
+     (timestamp 00000CA5)
+     ("Source Package" "TEST POINT")
+     (Value "Bz-")))
+   (place TP11
+    (property 
+     (timestamp 0000072F)
+     ("Source Package" "TEST POINT")
+     (Value TF3)))
+   (place TP12
+    (property 
+     (timestamp 00001B18)
+     ("Source Package" "TEST POINT")
+     (Value Bz+)))
+   (place TP13
+    (property 
+     (timestamp 00001B2E)
+     ("Source Package" "TEST POINT")
+     (Value tase+)))
+   (place TP14
+    (property 
+     (timestamp 00001B4C)
+     ("Source Package" "TEST POINT")
+     (Value Bz+)))
+   (place TP15
+    (property 
+     (timestamp 00001B5A)
+     ("Source Package" "TEST POINT")
+     (Value tase+)))
+   (place TP16
+    (property 
+     (timestamp 00001B78)
+     ("Source Package" "TEST POINT")
+     (Value Bz+)))
+   (place TP17
+    (property 
+     (timestamp 00001B86)
+     ("Source Package" "TEST POINT")
+     (Value tase+)))
+   (place TP1
+    (property 
+     (timestamp 00000C41)
+     ("Source Package" "TEST POINT")
+     (Value P+)))
+   (place TP18
+    (property 
+     (timestamp 00001D37)
+     ("Source Package" "TEST POINT")
+     (Value tase+)))
+   (place TP2
+    (property 
+     (timestamp 00000C4F)
+     ("Source Package" "TEST POINT")
+     (Value "P-")))
+   (place TP3
+    (property 
+     (timestamp 000001CB)
+     ("Source Package" "TEST POINT")
+     (Value sw+)))
+   (place TP4
+    (property 
+     (timestamp 00000813)
+     ("Source Package" "TEST POINT")
+     (Value "sw-")))
+   (place TP5
+    (property 
+     (timestamp 00000501)
+     ("Source Package" "TEST POINT")
+     (Value tase+)))
+   (place TP6
+    (property 
+     (timestamp 00000745)
+     ("Source Package" "TEST POINT")
+     (Value TF1)))
+   (place TP7
+    (property 
+     (timestamp 00000C8D)
+     ("Source Package" "TEST POINT")
+     (Value Bz+)))
+   (place TP8
+    (property 
+     (timestamp 00000517)
+     ("Source Package" "TEST POINT")
+     (Value "tase-")))
+   (place TP9
+    (property 
+     (timestamp 00000721)
+     ("Source Package" "TEST POINT")
+     (Value TF2))))
+  (component DIODE_0
+   (place D1
+    (property 
+     (timestamp 0000123B)
+     ("Source Package" DIODE_0)
+     (Value DIODE))))
+  (component INDUCTOR
+   (place L1
+    (property 
+     (timestamp 000008A0)
+     ("Source Package" INDUCTOR)
+     (Value INDUCTOR)))))
+ (library
+  (image "TEST POINT"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02011)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image 79XX/SM_0
+   (property 
+    (sourcelib C:\\USERS\\POTATO\\DESKTOP\\TASER\\TASER.DSN))
+   (pin 999 2
+    (property 
+     (pinname Vout)
+     (pintype 4)
+     (Name Vout)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5v)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname LX/SW)
+     (pintype 4)
+     (Name LX/SW)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04708)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image 79XX/SM_1
+   (property 
+    (sourcelib C:\\USERS\\POTATO\\DESKTOP\\TASER\\TASER.DSN))
+   (pin 999 2
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname EN)
+     (pintype 4)
+     (Name EN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5v)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname Vin)
+     (pintype 4)
+     (Name Vin)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5v)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname Vout)
+     (pintype 4)
+     (Name Vout)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3v3)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname NC)
+     (pintype 4)
+     (Name NC)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 4)
+     ("Is No Connect" True))))
+  (image PIC12C508_1
+   (property 
+    (sourcelib C:\\USERS\\POTATO\\DESKTOP\\TASER\\TASER.DSN))
+   (pin 999 1
+    (property 
+     (pinname "UART1_CK/TIM2_CH1/BEEP/(HS)PD4")
+     (pintype 4)
+     (Name "UART1_CK/TIM2_CH1/BEEP/(HS)PD4")
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" BUZZ)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "UART1_TX/AIN5/(HS) PD5")
+     (pintype 4)
+     (Name "UART1_TX/AIN5/(HS) PD5")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname "UART1_RX/AIN6/(HS) PD6")
+     (pintype 4)
+     (Name "UART1_RX/AIN6/(HS) PD6")
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname NRST)
+     (pintype 4)
+     (Name NRST)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" RST)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname OSCIN/PA1)
+     (pintype 4)
+     (Name OSCIN/PA1)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname OSCOUT/PA2)
+     (pintype 4)
+     (Name OSCOUT/PA2)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname VSS)
+     (pintype 4)
+     (Name VSS)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname VCAP)
+     (pintype 4)
+     (Name VCAP)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01369)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname VDD)
+     (pintype 4)
+     (Name VDD)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +3v3)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname "[SPI_NSS] TIM2_CH3/(HS) PA3")
+     (pintype 4)
+     (Name "[SPI_NSS] TIM2_CH3/(HS) PA3")
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PULSE)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname "PB5(T)/I2C_SDA [TIM1_BKIN]")
+     (pintype 4)
+     (Name "PB5(T)/I2C_SDA [TIM1_BKIN]")
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname "PB4(T)/I2C_SCL [ADC_ETR]")
+     (pintype 4)
+     (Name "PB4(T)/I2C_SCL [ADC_ETR]")
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname "PC3(HS)/TIM1_CH3 [TLI] [TIM1_CH1N]")
+     (pintype 4)
+     (Name "PC3(HS)/TIM1_CH3 [TLI] [TIM1_CH1N]")
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" BUTTON)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname "PC4(HS)/TIM1_CH4/CLK_CCO/AIN2/[TIM1_CH2N]")
+     (pintype 4)
+     (Name "PC4(HS)/TIM1_CH4/CLK_CCO/AIN2/[TIM1_CH2N]")
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname "PC5 (HS)/SPI_SCK [TIM2_CH1]")
+     (pintype 4)
+     (Name "PC5 (HS)/SPI_SCK [TIM2_CH1]")
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname "PC6(HS)/SPI_MOSI [TIM1_CH1]")
+     (pintype 4)
+     (Name "PC6(HS)/SPI_MOSI [TIM1_CH1]")
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 17
+    (property 
+     (pinname "PC7(HS)/SPI_MISO [TIM1_CH2]")
+     (pintype 4)
+     (Name "PC7(HS)/SPI_MISO [TIM1_CH2]")
+     (Number 17)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 16)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname "PD1(HS)/SWIM")
+     (pintype 4)
+     (Name "PD1(HS)/SWIM")
+     (Number 18)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SWIM)
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 19
+    (property 
+     (pinname "PD2(HS)/AIN3/[TIM2_CH3]")
+     (pintype 4)
+     (Name "PD2(HS)/AIN3/[TIM2_CH3]")
+     (Number 19)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 18)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname "PD3 (HS)/AIN4/TIM2_CH2/ADC_ETR")
+     (pintype 4)
+     (Name "PD3 (HS)/AIN4/TIM2_CH2/ADC_ETR")
+     (Number 20)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" BAT_SENSE)
+     (Order 19)
+     ("Is No Connect" False))))
+  (image RESISTOR
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vbat)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" BAT_SENSE)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image INDUCTOR
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vbat)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04708)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "CAP NP"
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\DISCRETE.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" Vbat)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CON4
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_17.2\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5v)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SWIM)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" RST)
+     (Order 3)
+     ("Is No Connect" False))))
+  (image DIODE_0
+   (property 
+    (sourcelib C:\\USERS\\POTATO\\DESKTOP\\TASER\\TASER.DSN))
+   (pin 999 1
+    (property 
+     (pinname A)
+     (pintype 4)
+     (Name A)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04708)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname K)
+     (pintype 4)
+     (Name K)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5v)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 2N2221_1
+   (property 
+    (sourcelib C:\\USERS\\POTATO\\DESKTOP\\TASER\\TASER.DSN))
+   (pin 999 3
+    (property 
+     (pinname COLLECTOR)
+     (pintype 4)
+     (Name COLLECTOR)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01330)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname EMITTER)
+     (pintype 4)
+     (Name EMITTER)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname BASE)
+     (pintype 4)
+     (Name BASE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01128)
+     (Order 2)
+     ("Is No Connect" False)))))
+ (network
+  (net +3V3
+   (pins
+     R3-1 U3-9 U2-5 C4-1 C5-1 TP18-1))
+  (net +5V
+   (pins
+     J1-1 TP6-1 U1-2 TP7-1 U2-3 U2-1 C3-1 D1-2))
+  (net BAT_SENSE
+   (pins
+     R1-2 R2-1 U3-20 TP13-1))
+  (net BUTTON
+   (pins
+     TP3-1 U3-13 TP12-1))
+  (net BUZZ
+   (pins
+     R6-2 U3-1 TP15-1))
+  (net GND
+   (pins
+     C7-2 R2-2 J1-2 Q1-2 Q2-2 R5-2 C6-2 TP4-1 U1-1
+     U3-7 TP2-1 U2-2 C3-2 C2-2 C1-2 R7-2 C4-2 C5-2
+     TP17-1))
+  (net N01000
+   (pins
+     Q2-1 R6-1 R7-1))
+  (net N01128
+   (pins
+     Q1-1 R5-1 R4-2))
+  (net N01330
+   (pins
+     Q1-3 TP8-1))
+  (net N01369
+   (pins
+     C7-1 U3-8))
+  (net N01941
+   (pins
+     Q2-3 TP11-1))
+  (net N02011
+   (pins
+     TP9-1 TP10-1))
+  (net N04708
+   (pins
+     U1-3 L1-2 D1-1))
+  (net PULSE
+   (pins
+     U3-10 R4-1 TP14-1))
+  (net RST
+   (pins
+     J1-4 R3-2 C6-1 U3-4))
+  (net SWIM
+   (pins
+     J1-3 U3-18))
+  (net VBAT
+   (pins
+     R1-1 L1-1 TP1-1 C2-1 C1-1 TP16-1)))
+)

@@ -1,0 +1,38 @@
+  Revised: Tuesday, January 25, 2022
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials        January 26,2022      11:39:35	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C1	0.1uf/1206
+2	2	C2,C3	1uf/1206
+3	3	C4,C5,C7	1uf/0603
+4	1	C6	0.1uf/0603
+5	1	D1	DIODE
+6	1	J1	CON4
+7	1	L1	INDUCTOR
+8	2	Q1,Q2	2N2221
+9	2	R1,R2	1M
+10	1	R3	10k
+11	4	R4,R5,R6,R7	1k
+12	1	TP1	P+
+13	1	TP2	P-
+14	1	TP3	sw+
+15	1	TP4	sw-
+16	1	TP5	tase+
+17	1	TP6	TF1
+18	1	TP7	Bz+
+19	1	TP8	tase-
+20	1	TP9	TF2
+21	1	TP10	Bz-
+22	1	TP11	TF3
+23	2	U1,U2	BL8530-501SM
+24	1	U3	STM8s003
